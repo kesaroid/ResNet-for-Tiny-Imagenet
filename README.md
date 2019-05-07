@@ -7,4 +7,4 @@ Tiny Imagenet is a smaller version of the Imagenet Dataset with 100,000 images a
 
 ### Proposed Full Pre-Activation ResNet
 
-[!res_block](https://qph.fs.quoracdn.net/main-qimg-c2aaf6646cbe1dcb10709e6d2004727d "res_block")
+![res_block](https://qph.fs.quoracdn.net/main-qimg-c2aaf6646cbe1dcb10709e6d2004727d "ResNet architectures")
