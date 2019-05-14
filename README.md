@@ -19,11 +19,18 @@ The Model architecture used is as following:
 
 I used the `imgaug` library to augment my images, and few of the augmentation methods are 
 
-..* Gaussian Blur
-..* Horizontal Flip
-..* Crop
-..* Coarse Dropout
-..* Scale
-..* Translate Percent
-..* Rotate
-..* Shear
+* Gaussian Blur
+
+* Horizontal Flip
+
+* Crop
+
+* Coarse Dropout
+
+* Scale
+
+* Translate Percent
+
+* Rotate
+
+* Shear
