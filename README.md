@@ -8,3 +8,5 @@ Tiny Imagenet is a smaller version of the Imagenet Dataset with 100,000 images a
 ### Proposed Full Pre-Activation ResNet
 
 ![res_block](https://qph.fs.quoracdn.net/main-qimg-c2aaf6646cbe1dcb10709e6d2004727d "ResNet architectures")
+
+Each block used is a Full Pre-Activation ResNet model which outperforms the ResNet architecture. Here, the difference is in each block, it is Batch Normalization ---> ReLU ---> Convolution instead of the other way round.
