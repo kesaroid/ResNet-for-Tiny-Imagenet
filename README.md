@@ -9,4 +9,21 @@ Tiny Imagenet is a smaller version of the Imagenet Dataset with 100,000 images a
 
 ![res_block](https://qph.fs.quoracdn.net/main-qimg-c2aaf6646cbe1dcb10709e6d2004727d "ResNet architectures")
 
-Each block used is a Full Pre-Activation ResNet model which outperforms the ResNet architecture. Here, the difference is in each block, it is Batch Normalization ---> ReLU ---> Convolution instead of the other way round.
+Each block used is a Full Pre-Activation ResNet model which outperforms the ResNet architecture. Here, the difference is in each block, it is `Batch Normalization ---> ReLU ---> Convolution` instead of the other way round.
+
+The Model architecture used is as following: 
+
+![res_model](https://github.com/kesaroid/ResNet-for-Tiny-Imagenet/blob/master/model.png "ResNet model implemented")
+
+### Augmentation Techniques:
+
+I used the `imgaug` library to augment my images, and few of the augmentation methods are 
+
+--* Gaussian Blur
+--* Horizontal Flip
+--* Crop
+--* Coarse Dropout
+--* Scale
+--* Translate Percent
+--* Rotate
+--* Shear
