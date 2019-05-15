@@ -18,6 +18,10 @@ The Model architecture used is as following:
 
 9 blocks in total, with 8 ResNet blocks and GlobalAveragePooling at the end. 
 
+I have used Softmax activation, Categorical cross entropy loss.
+Adam optimizer is used for the initial epochs followed by Stochastic Gradient Descent.
+
+Callbacks used are: Model checkpoint, Reduce learning rate on plateu and CSV logger. 
 
 ### Augmentation Techniques:
 
