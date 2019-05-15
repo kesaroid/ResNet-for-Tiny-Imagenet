@@ -16,6 +16,9 @@ The Model architecture used is as following:
 
 ![res_model](https://github.com/kesaroid/ResNet-for-Tiny-Imagenet/blob/master/model.png "ResNet model implemented")
 
+9 blocks in total, with 8 ResNet blocks and GlobalAveragePooling at the end. 
+
+
 ### Augmentation Techniques:
 
 I used the `imgaug` library to augment my images, and few of the augmentation methods are 
