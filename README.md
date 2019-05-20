@@ -35,3 +35,7 @@ I used the `imgaug` library to augment my images, and few of the augmentation me
 * Translate Percent
 * Rotate
 * Shear
+
+### Class Weights:
+
+I have implemented an algorithm to recognize the classes that are performing badly and make the model concentrate more on these specific classes by adding a factor to the weights.
